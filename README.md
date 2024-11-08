@@ -22,6 +22,7 @@ pip install -r requirements.txt
 
 The repository is organized as follows:
 
+```
 DS105A-2024-W06-SUMMATIVE-NATASHIBLIE/
 ├── code/                            # Folder containing Jupyter Notebooks for data collection and analysis
 │   ├── NB01 - NATData Collection copy.ipynb       # Notebook for collecting and processing rainfall data
@@ -34,6 +35,7 @@ DS105A-2024-W06-SUMMATIVE-NATASHIBLIE/
 │
 ├── README.md                        # Documentation file explaining the project, setup, and usage
 ├── requirements.txt                 # List of dependencies needed to run the project
+```
 
 
 
