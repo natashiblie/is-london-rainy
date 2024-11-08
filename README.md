@@ -25,7 +25,7 @@ The repository is organised as follows:
 ```
 DS105A-2024-W06-SUMMATIVE-NATASHIBLIE/
 ├── code/                            # Folder containing Jupyter Notebooks for data collection and analysis
-│   ├── NB01 - Data Collection copy.ipynb       # Notebook for collecting and processing rainfall data
+│   ├── NB01 - Data Collection.ipynb       # Notebook for collecting and processing rainfall data
 │   └── NB02 - Simple Data Analysis.ipynb       # Notebook for analysing and visualising rainfall data
 │
 ├── data/                            # Folder containing data files used in the analysis
