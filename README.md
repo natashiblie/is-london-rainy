@@ -88,7 +88,7 @@ Detailed visualisations for these findings are available in the Jupyter Notebook
 
 The analysis shows that London experiences frequent rain, with rainfall on 62.4% of the days in 2023. While London’s rain is generally lighter and less intense compared to tropical cities, its consistent, moderate rainfall supports its reputation as a rainy city. 
 
-Overall, we conclude that London’s rainy image is justified based on the frequency and steadiness of rainfall, though it is not as heavy as often depicted in movies.
+Overall, we conclude that London’s rainy image is justified based on the frequency and consistency of rainfall, though it is not as heavy as often depicted in movies.
 
 
 ## Further Exploration
