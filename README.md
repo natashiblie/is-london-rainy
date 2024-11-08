@@ -2,3 +2,13 @@
 
 ![Figure 1. London's Rainy Weather](specify path in relation to for example, ./figres/london_rain.jpg
 )
+
+Description 
+
+Installation (requirements.txt) 
+
+How to run the project/ structure: 
+
+Methods + data used + 
+
+Conclusion
