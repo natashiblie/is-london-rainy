@@ -25,8 +25,8 @@ The repository is organised as follows:
 ```
 DS105A-2024-W06-SUMMATIVE-NATASHIBLIE/
 ├── code/                            # Folder containing Jupyter Notebooks for data collection and analysis
-│   ├── NB01 - NATData Collection copy.ipynb       # Notebook for collecting and processing rainfall data
-│   └── NB02 - NATSimple Data Analysis.ipynb       # Notebook for analysing and visualising rainfall data
+│   ├── NB01 - Data Collection copy.ipynb       # Notebook for collecting and processing rainfall data
+│   └── NB02 - Simple Data Analysis.ipynb       # Notebook for analysing and visualising rainfall data
 │
 ├── data/                            # Folder containing data files used in the analysis
 │   ├── londonrain.jpg               # Image file, potentially used for visualisation or README
@@ -57,7 +57,7 @@ These metrics provide a balanced view of both the frequency and intensity of rai
 - **Monthly Total Rainfall - Line Graph**: London experiences a steady rainfall trend through the year.
 - **Average Rain Intensity - Bar Chart**: London’s rain is generally light, which differs from the intense rain often depicted in movies.
 
-Detailed visualisations for these findings are available in the Jupyter Notebook named 'NB02 - NATSimple Data Analysis.ipynb'.
+Detailed visualisations for these findings are available in the Jupyter Notebook named 'NB02 - Simple Data Analysis.ipynb'.
 
 ## Conclusion
 
