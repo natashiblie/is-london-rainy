@@ -3,12 +3,8 @@ import requests
 import json
 
 def get_lat_lon(country_code, city_name):
-    
-    # Define the path to the CSV file with city data
-    filepath = '../data/world_cities.csv'
-    
     # Load the CSV file into a DataFrame
-    world_cities = pd.read_csv(filepath)
+    world_cities = pd.read_csv('data/world_cities.csv')
 
     # Filter the DataFrame to find the specific city based on country code and city name
     city_data = world_cities[(world_cities['country'] == country_code) & 
@@ -19,7 +15,7 @@ def get_lat_lon(country_code, city_name):
     
     # Raise an error if no matching record is found
     if len(city_data) == 0:
-        raise ValueError(f"No records found for {city_name}, {country_code} in {filepath}")
+        raise ValueError(f"No records found for {city_name}, {country_code} in data/world_cities.csv")
 
     # Extract latitude and longitude from the first matching record
     latitude = city_data[0]['lat']
