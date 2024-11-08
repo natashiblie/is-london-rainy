@@ -33,7 +33,6 @@ DS105A-2024-W06-SUMMATIVE-NATASHIBLIE/
 ├── data/                            # Folder containing data files used in the analysis
 │   ├── londonrain.jpg               # Image file of London rainy weather, used for README
 │   ├── multicity_historical.json    # JSON file containing historical rainfall data across selected cities
-│   ├── singapore_2023.json          # JSON file containing rainfall data for Singapore in 2023
 │   └── world_cities.csv             # CSV file with latitude and longitude of cities involved in the study
 │
 ├── scripts/                         # Folder containing Python scripts for data collection
