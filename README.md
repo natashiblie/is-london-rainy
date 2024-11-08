@@ -17,4 +17,23 @@ To run this project, ensure you have Python installed. Install the necessary pac
 ```bash
 pip install -r requirements.txt
 
+```
+## Project Structure and How to Run
+
+The repository is organized as follows:
+
+DS105A-2024-W06-SUMMATIVE-NATASHIBLIE/
+├── code/                            # Folder containing Jupyter Notebooks for data collection and analysis
+│   ├── NB01 - NATData Collection copy.ipynb       # Notebook for collecting and processing rainfall data
+│   └── NB02 - NATSimple Data Analysis.ipynb       # Notebook for analyzing and visualizing rainfall data
+│
+├── data/                            # Folder containing data files used in the analysis
+│   ├── londonrain.jpg               # Image file, potentially used for visualization or README
+│   ├── multicity_historical.json    # JSON file containing historical rainfall data across multiple cities
+│   └── world_cities.csv             # CSV file with metadata or coordinates of cities involved in the study
+│
+├── README.md                        # Documentation file explaining the project, setup, and usage
+├── requirements.txt                 # List of dependencies needed to run the project
+
+
 
