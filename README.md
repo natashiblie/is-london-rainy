@@ -53,9 +53,9 @@ These metrics provide a balanced view of both the frequency and intensity of rai
 
 ## Results & Visualisations
 
-- **Number of Rainy Days - Bar Chart**: London has frequent, light rain, contributing to its "rainy" reputation without significant downpours.
-- **Monthly Total Rainfall - Line Graph**: London experiences a steady rainfall trend through the year.
-- **Average Rain Intensity - Bar Chart**: London’s rain is generally light, which differs from the intense rain often depicted in movies.
+- **Figure 1: Number of Rainy Days - Bar Chart**: London has frequent, light rain, contributing to its "rainy" reputation without significant downpours.
+- **Figure 2: Monthly Total Rainfall - Line Graph**: London experiences a steady rainfall trend through the year, showing a consistent but moderate volume of rain.
+- **Figure 3: Average Rain Intensity - Bar Chart**: London’s rain is generally light, which differs from the intense rain often depicted in movies.
 
 Detailed visualisations for these findings are available in the Jupyter Notebook named 'NB02 - Simple Data Analysis.ipynb'.
 
