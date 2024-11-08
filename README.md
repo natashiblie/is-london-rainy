@@ -44,20 +44,47 @@ To run the project, open `code/NB01 - Data Collection.ipynb` in Jupyter Notebook
 ### Data Source
 The data used in this analysis was sourced from the [Open-Meteo Historical Weather API](https://open-meteo.com/en/docs/historical-weather-api), which provides monthly rainfall metrics for various global cities, including London, Cairo, Singapore, and more.
 
+### Data Collection Strategy
+In this project, we used the **Historical Weather Data** endpoint from the Open-Meteo API:
+
+| Endpoint         | URL starts with                                      |
+|------------------|------------------------------------------------------|
+| [Historical Weather Data](https://open-meteo.com/en/docs/historical-weather-api) | `https://archive-api.open-meteo.com/v1/archive` |
+
+The objective is to assess the raininess of **London, UK** relative to other cities with varied climates. We collected historical precipitation data for the entire year of 2023 to enable a detailed comparison of annual rain patterns.
+
+#### Cities Selected for Comparison:
+1. **London, UK** – The main city of interest, often portrayed as rainy.
+2. **Singapore** – Known for its tropical climate with high annual rainfall.
+3. **Cairo, Egypt** – Represents a dry climate with very low annual rainfall.
+4. **Buenos Aires, Argentina** – A moderate climate with regular seasonal rainfall.
+5. **Mumbai, India** – Known for very high rainfall, particularly during the monsoon season.
+
+#### Data Collection Scope
+For each city, the following data was retrieved for 2023:
+- **Daily Precipitation** (`precipitation_sum`) to measure total rainfall.
+- **Precipitation Hours** (`precipitation_hours`) to capture the duration of rainfall each day.
+
+## Metrics and Results
+
 ### Metrics Analysed
-- **Number of Rainy Days**: To evaluate the frequency of rainy days in London versus other cities.
-- **Monthly Total Rainfall**: To assess the volume of rain London receives over time.
-- **Average Rain Intensity**: To gauge whether London’s rain tends to be light or heavy.
+This analysis uses key rainfall metrics to evaluate London’s reputation as a rainy city and compare it with other cities:
 
-These metrics provide a balanced view of both the frequency and intensity of rainfall, which helps in understanding London's weather patterns accurately.
+- **Number of Rainy Days**: Evaluates the frequency of rainy days in London versus other cities.
+- **Monthly Total Rainfall**: Assesses the volume of rain London receives over time.
+- **Average Rain Intensity**: Gauges whether London’s rain tends to be light or heavy.
 
-## Results & Visualisations
+These metrics provide a balanced view of the frequency, intensity and volume of rainfall, helping to understand London's weather patterns accurately.
+
+### Results & Visualisations
+Each metric is visualised to highlight London’s rain characteristics:
 
 - **Figure 1: Number of Rainy Days - Bar Chart**: London has frequent, light rain, contributing to its "rainy" reputation without significant downpours.
-- **Figure 2: Monthly Total Rainfall - Line Graph**: London experiences a steady rainfall trend through the year, showing a consistent but moderate volume of rain.
+- **Figure 2: Monthly Total Rainfall - Line Graph**: London experiences a steady rainfall trend throughout the year, showing a consistent but moderate volume of rain.
 - **Figure 3: Average Rain Intensity - Bar Chart**: London’s rain is generally light, which differs from the intense rain often depicted in movies.
 
 Detailed visualisations for these findings are available in the Jupyter Notebook named 'NB02 - Simple Data Analysis.ipynb'.
+
 
 ## Conclusion
 
