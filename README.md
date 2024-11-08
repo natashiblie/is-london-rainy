@@ -23,25 +23,25 @@ The repository is organised as follows:
 
 ```
 DS105A-2024-W06-SUMMATIVE-NATASHIBLIE/
-├── code/                            # Folder containing Jupyter Notebooks for data collection and analysis
+├── code/                                  # Folder containing Jupyter Notebooks for data collection and analysis
 │   ├── NB01 - Data Collection.ipynb       # Notebook for collecting and processing rainfall data
 │   └── NB02 - Simple Data Analysis.ipynb       # Notebook for analysing and visualising rainfall data
 │
 ├── data/                            # Folder containing data files used in the analysis
-│   ├── londonrain.jpg               # Image file, potentially used for visualisation or README
-│   ├── multicity_historical.json    # JSON file containing historical rainfall data across multiple cities
-│   └── world_cities.csv             # CSV file with metadata or coordinates of cities involved in the study
+│   ├── londonrain.jpg               # Image file of London rainy weather , used for README
+│   ├── multicity_historical.json    # JSON file containing historical rainfall data across selected cities
+│   └── world_cities.csv             # CSV file with latitude and longitude of cities involved in the study
 │
 ├── README.md                        # Documentation file explaining the project, setup, and usage
 ├── requirements.txt                 # List of dependencies needed to run the project
 ```
 
-To run the project, open `code/NB01 - Data Collection.ipynb` in Jupyter Notebook to collect and process rainfall data, then proceed to `code/NB02 - Simple Data Analysis.ipynb` for data analysis and visualisation. The notebooks are structured to guide you through data loading, processing, visualisation, and conclusions step-by-step.
+After installing the necessary packages above, open `code/NB01 - Data Collection.ipynb` in Jupyter Notebook to collect and process rainfall data, then proceed to `code/NB02 - Simple Data Analysis.ipynb` for data analysis and visualisation. The notebooks are structured to guide you through data loading, processing, visualisation, and conclusions step-by-step.
 
 ## Methodology
 
 ### Data Source
-The data used in this analysis was sourced from the [Open-Meteo Historical Weather API](https://open-meteo.com/en/docs/historical-weather-api), which provides monthly rainfall metrics for various global cities, including London, Cairo, Singapore, and more.
+The data used in this analysis was sourced from the [Open-Meteo Historical Weather API](https://open-meteo.com/en/docs/historical-weather-api), which provides weather-related metrics for various global cities, including London, Cairo, Singapore, and more.
 
 ### Data Collection Strategy
 In this project, we used the **Historical Weather Data** endpoint from the Open-Meteo API:
@@ -62,7 +62,6 @@ The objective is to assess the raininess of **London, UK** relative to other cit
 #### Data Collection Scope
 For each city, the following data was retrieved for 2023:
 - **Daily Precipitation** (`precipitation_sum`) to measure total rainfall.
-- **Precipitation Hours** (`precipitation_hours`) to capture the duration of rainfall each day.
 
 ## Metrics and Results
 
@@ -73,7 +72,7 @@ This analysis uses key rainfall metrics to evaluate London’s reputation as a r
 - **Monthly Total Rainfall**: Assesses the volume of rain London receives over time.
 - **Average Rain Intensity**: Gauges whether London’s rain tends to be light or heavy.
 
-These metrics provide a balanced view of the frequency, intensity and volume of rainfall, helping to understand London's weather patterns accurately.
+These metrics provide a balanced view of the frequency, volume and intensity of rainfall, helping to understand London's weather patterns accurately.
 
 ### Results & Visualisations
 Each metric is visualised to highlight London’s rain characteristics:
