@@ -86,7 +86,10 @@ Detailed visualisations for these findings are available in the Jupyter Notebook
 
 ## Conclusion
 
-This analysis shows that while London does experience frequent rainy days, the rain tends to be light and less intense than often depicted in movies. London's "rainy" image is more due to the frequency of rain rather than its intensity or total volume.
+The analysis shows that London experiences frequent rain, with rainfall on 62.4% of the days in 2023. While London’s rain is generally lighter and less intense compared to tropical cities, its consistent, moderate rainfall supports its reputation as a rainy city. 
+
+Overall, we conclude that London’s rainy image is justified based on the frequency and steadiness of rainfall, though it is not as heavy as often depicted in movies.
+
 
 ## Further Exploration
 
