@@ -16,7 +16,6 @@ To run this project, ensure you have Python installed. Install the necessary pac
 
 ```bash
 pip install -r requirements.txt
-
 ```
 ## Project Structure and How to Run
 
