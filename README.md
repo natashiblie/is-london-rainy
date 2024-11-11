@@ -20,15 +20,14 @@ To run this project, ensure the following:
 ```bash
 pip install -r requirements.txt
 ```
-## Project Structure and How to Run
+## Project Structure
 
 The repository is organised as follows:
 
 ```
 DS105A-2024-W06-SUMMATIVE-NATASHIBLIE/
 ├── code/                                     # Folder containing Jupyter Notebooks for data collection and analysis
-│   ├── NB01 - Data Collection.ipynb          # Notebook for collecting and processing rainfall data
-│   └── NB02 - Simple Data Analysis.ipynb     # Notebook for analyzing and visualizing rainfall data
+│   └── NB01 - Simple Data Analysis.ipynb     # Notebook for analyzing and visualizing rainfall data
 │
 ├── data/                            # Folder containing data files used in the analysis
 │   ├── londonrain.jpg               # Image file of London rainy weather, used for README
@@ -43,8 +42,6 @@ DS105A-2024-W06-SUMMATIVE-NATASHIBLIE/
 └── requirements.txt                 # List of dependencies needed to run the project
 
 ```
-
-After installing the necessary packages above, open `code/NB01 - Data Collection.ipynb` in Jupyter Notebook to collect and process rainfall data, then proceed to `code/NB02 - Simple Data Analysis.ipynb` for data analysis and visualisation. The notebooks are structured to guide you through data loading, processing, visualisation, and conclusions step-by-step.
 
 ## Python Scripts
 
@@ -73,6 +70,39 @@ python scripts/data_collection_script.py <country_code> <city_name> --start_date
 - <end_date>: (Optional) The end date in YYYY-MM-DD format. Defaults to 2023-12-31.
 - --output_file: (Optional) Path to save the collected data as a JSON file. You can save it as 'data/singapore_2023.json' for example.
 Defaults to ../data/multicity_historical.json.
+
+## How to Set Up and Run the Project
+
+This guide provides a step-by-step walkthrough on setting up and running the project, from installation to data analysis and visualization.
+
+---
+
+1. **Clone the Repository**  
+   Begin by cloning this repository to your Nuvolos environment. Open a terminal in Nuvolos, then enter the command: `git clone <repository_url>`
+   The repository_url is 'git@github.com:lse-ds105/ds105a-2024-w06-summative-natashiblie.git'
+
+2. **Install Python and Dependencies**  
+   In the terminal, check if Python is installed by running: `python --version`  
+   Then, navigate to the project directory and install the required packages in  terminal by typing: `pip install -r requirements.txt`
+
+3. **Data Collection with Scripts**  
+   To collect rainfall data for a specific city and date range, open terminal and run the following command in the project directory:  
+   `python scripts/data_collection_script.py <country_code> <city_name> --start_date <start_date> --end_date <end_date> --output_file <output_file>`  
+   Replace each placeholder with specific values:  
+   - `<country_code>`: The country code for the city (e.g., "GB" for the United Kingdom).  
+   - `<city_name>`: The name of the city (e.g., "London").  
+   - `<start_date>`: Start date in `YYYY-MM-DD` format. Defaults to `2023-01-01`.  
+   - `<end_date>`: End date in `YYYY-MM-DD` format. Defaults to `2023-12-31`.  
+   - `<output_file>`: (Optional) Path to save the data as a JSON file. Defaults to `../data/multicity_historical.json`. You should replace it with a similar format, like data/xx_2023.json, where xx represents the city name for easy reference.
+
+   **The full commands to be run in terminal can be found under the Jupyter Notebook under the header 'Data Collection Prerequisite' for easy reference.**
+
+4. **Run Jupyter Notebooks for Visualiations & Results**  
+   Use the Nuvolos interface to open the Jupyter Notebook `NB01 - Simple Data Analysis.ipynb` for visualising and analysing the collected data. Click Run at the top of the notebook. These visualizations include metrics like the number of rainy days, monthly rainfall totals, and average rain intensity, providing insights into London's rain patterns relative to other cities.
+---
+
+By following these steps, you can set up, run, and analyze rainfall data, gaining insights into London's climate relative to other cities.
+
 
 ## Methodology
 
@@ -120,7 +150,7 @@ Each metric is visualised to highlight London’s rain characteristics:
 - **Figure 2: Monthly Total Rainfall - Line Graph**: London experiences a steady rainfall trend throughout the year, showing a consistent but moderate volume of rain.
 - **Figure 3: Average Rain Intensity - Bar Chart**: London’s rain is generally light, which differs from the intense rain often depicted in movies.
 
-Detailed visualisations for these findings are available in the Jupyter Notebook named 'NB02 - Simple Data Analysis.ipynb'.
+Detailed visualisations for these findings are available in the Jupyter Notebook named 'NB01 - Simple Data Analysis.ipynb'.
 
 
 ## Conclusion
