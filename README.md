@@ -10,70 +10,43 @@ This project investigates London's rainy reputation by analysing rainfall metric
 
 This analysis examines rainfall data for London and other major cities to determine if London is truly as rainy as often depicted in movies. By analysing metrics such as the number of rainy days, monthly total rainfall, and average rain intensity, we gain insights into the reality of London's weather.
 
-## Installation
-
-To run this project, ensure the following:
-1. Python is installed.
-2. Clone the repository.
-3. Install required Python packages using the following code in terminal
-
-```bash
-pip install -r requirements.txt
-```
 ## Project Structure
 
 The repository is organised as follows:
 
 ```
 DS105A-2024-W06-SUMMATIVE-NATASHIBLIE/
-├── code/                                     # Folder containing Jupyter Notebooks for data collection and analysis
-│   └── NB01 - Simple Data Analysis.ipynb     # Notebook for analyzing and visualizing rainfall data
+├── code/                                     # Folder containing Jupyter Notebooks 
+│   └── NB01 - Simple Data Analysis.ipynb     # Notebook for analysing and visualising rainfall data
+├── data/                                     # Folder containing data files used in the analysis
+│   ├── londonrain.jpg                        # Image file of London rainy weather, used for README
+│   └── world_cities.csv                      # CSV file with latitude and longitude of cities involved in the study
 │
-├── data/                            # Folder containing data files used in the analysis
-│   ├── londonrain.jpg               # Image file of London rainy weather, used for README
-│   ├── multicity_historical.json    # JSON file containing historical rainfall data across selected cities
-│   └── world_cities.csv             # CSV file with latitude and longitude of cities involved in the study
+├── scripts/                                  # Folder containing Python scripts for data collection
+│   ├── data_collection_script.py             # Script to collect rainfall data for a specified city and date range
+│   └── data_collection_utils.py              # Contains reusable functions for data collection (e.g., get_lat_lon, build_url)
 │
-├── scripts/                         # Folder containing Python scripts for data collection
-│   ├── data_collection_script.py    # Script to collect rainfall data for a specified city and date range
-│   └── data_collection_utils.py     # Contains reusable functions for data collection (e.g., get_lat_lon, build_url)
-│
-├── README.md                        # Documentation file explaining the project, setup, and usage
-└── requirements.txt                 # List of dependencies needed to run the project
+├── README.md                                 # Documentation file explaining the project, setup, and usage
+└── requirements.txt                          # List of dependencies needed to run the project
 
 ```
 
 ## Python Scripts
 
-The project includes Python scripts located in the `scripts/` folder. These scripts streamline the data collection process by organizing reusable functions and enabling data collection through command-line execution.
+The project includes Python scripts located in the `scripts/` folder. These scripts streamline the data collection process by organising reusable functions and enabling data collection through command-line execution.
 
 1. **data_collection_utils.py**: This script contains reusable functions that support data collection, including:
    - `get_lat_lon(country_code, city_name)`: Retrieves latitude and longitude for a given city.
    - `build_url(latitude, longitude, start_date, end_date)`: Constructs the API URL for retrieving weather data based on city coordinates and date range.
    - `get_historical_data(country_code, city_name, start_date, end_date)`: Fetches historical rainfall data for a specified city and date range.
 
-   These functions make it easy to modularize and maintain the data collection process.
+   These functions make it easy to modularise and maintain the data collection process.
 
 2. **data_collection_script.py**: This is a standalone script designed to collect rainfall data for a specified city and date range. It can be run directly from the terminal and uses command-line arguments to specify parameters, making it flexible for different cities and timeframes. (shown below)
 
-## How to Use the Data Collection Script
-
-The data collection script allows you to gather rainfall data for a specific city and time period. You can run it from the terminal using the following command:
-
-```bash
-python scripts/data_collection_script.py <country_code> <city_name> --start_date <start_date> --end_date <end_date> --output_file <output_file>
-```
-
-- <country_code>: The country code for the city (e.g., "SG" for Singapore).
-- <city_name>: The name of the city (e.g., "Singapore").
-- <start_date>: The start date in YYYY-MM-DD format. Defaults to 2023-01-01.
-- <end_date>: (Optional) The end date in YYYY-MM-DD format. Defaults to 2023-12-31.
-- --output_file: (Optional) Path to save the collected data as a JSON file. You can save it as 'data/singapore_2023.json' for example.
-Defaults to ../data/multicity_historical.json.
-
 ## How to Set Up and Run the Project
 
-This guide provides a step-by-step walkthrough on setting up and running the project, from installation to data analysis and visualization.
+This guide provides a step-by-step walkthrough on setting up and running the project, from installation to data analysis and visualisation.
 
 ---
 
@@ -98,10 +71,10 @@ This guide provides a step-by-step walkthrough on setting up and running the pro
    **The full commands to be run in terminal can be found under the Jupyter Notebook under the header 'Data Collection Prerequisite' for easy reference.**
 
 4. **Run Jupyter Notebooks for Visualiations & Results**  
-   Use the Nuvolos interface to open the Jupyter Notebook `NB01 - Simple Data Analysis.ipynb` for visualising and analysing the collected data. Click Run at the top of the notebook. These visualizations include metrics like the number of rainy days, monthly rainfall totals, and average rain intensity, providing insights into London's rain patterns relative to other cities.
+   Use the Nuvolos interface to open the Jupyter Notebook `NB01 - Simple Data Analysis.ipynb` for visualising and analysing the collected data. Click Run at the top of the notebook. These visualisations include metrics like the number of rainy days, monthly rainfall totals, and average rain intensity, providing insights into London's rain patterns relative to other cities.
 ---
 
-By following these steps, you can set up, run, and analyze rainfall data, gaining insights into London's climate relative to other cities.
+By following these steps, you can set up, run, and analyse rainfall data, gaining insights into London's climate relative to other cities.
 
 
 ## Methodology
