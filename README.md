@@ -36,7 +36,7 @@ The project includes Python scripts located in the `scripts/` folder. These scri
    - `build_url(latitude, longitude, start_date, end_date)`: Constructs the API URL for retrieving weather data based on city coordinates and date range.
    - `get_historical_data(country_code, city_name, start_date, end_date)`: Fetches historical rainfall data for a specified city and date range.
 
-   These functions make it easy to modularise and maintain the data collection process.
+   These functions make it easier to keep the data collection process organized and simple to manage.
 
 2. **data_collection_script.py**: This is a standalone script designed to collect rainfall data for a specified city and date range. It can be run directly from the terminal and uses command-line arguments to specify parameters, making it flexible for different cities and timeframes. (shown below)
 
@@ -52,6 +52,7 @@ This guide provides a step-by-step walkthrough on setting up and running the pro
 
 2. **Install Python and Dependencies**  
    In the terminal, check if Python is installed by running: `python --version`  
+   If Python is installed, the terminal should show a version number like Python 3.x.x. If it’s not installed, you’ll need to install Python by searching online for installation instructions.
    Then, navigate to the project directory and install the required packages in  terminal by typing: `pip install -r requirements.txt`
 
 3. **Data Collection with Scripts**  
@@ -64,13 +65,10 @@ This guide provides a step-by-step walkthrough on setting up and running the pro
    - `<end_date>`: End date in `YYYY-MM-DD` format. Defaults to `2023-12-31`.  
    - `<output_file>`: (Optional) Path to save the data as a JSON file. Defaults to `../data/multicity_historical.json`. You should replace it with a similar format, like data/xx_2023.json, where xx represents the city name for easy reference.
 
-   **The full commands to be run in terminal can be found under the Jupyter Notebook under the header 'Data Collection Prerequisite' for easy reference.**
+   **All terminal commands needed for this project can be found in the Jupyter Notebook under the header 'Data Collection Prerequisite' for easy reference.**
 
 4. **Run Jupyter Notebooks for Visualiations & Results**  
    Use the Nuvolos interface to open the Jupyter Notebook `NB01 - Simple Data Analysis.ipynb` for visualising and analysing the collected data. Click Run at the top of the notebook. These visualisations include metrics like the number of rainy days, monthly rainfall totals, and average rain intensity, providing insights into London's rain patterns relative to other cities.
----
-
-By following these steps, you can set up, run, and analyse rainfall data, gaining insights into London's climate relative to other cities.
 
 
 ## Methodology
@@ -97,6 +95,8 @@ The objective is to assess the raininess of **London, UK** relative to other cit
 4. **Buenos Aires, Argentina** – A moderate climate with regular seasonal rainfall.
 5. **Mumbai, India** – Known for very high rainfall, particularly during the monsoon season.
 
+These cities offer a range of climates, from dry (Cairo) to tropical (Singapore, Mumbai) and moderate (Buenos Aires), providing a balanced comparison to assess if London's raininess is as prominent as often portrayed.
+
 #### Data Collection Scope
 For each city, the following data was retrieved for 2023:
 - **Daily Precipitation** (`precipitation_sum`) to measure total rainfall.
@@ -110,7 +110,7 @@ This analysis uses key rainfall metrics to evaluate London’s reputation as a r
 - **Monthly Total Rainfall**: Assesses the volume of rain London receives over time.
 - **Average Rain Intensity**: Gauges whether London’s rain tends to be light or heavy.
 
-These metrics provide a balanced view of the frequency, volume and intensity of rainfall, helping to understand London's weather patterns accurately.
+These metrics provide a balanced view of the **frequency, volume and intensity of rainfall**, helping to understand London's weather patterns accurately.
 
 ### Results & Visualisations
 Each metric is visualised to highlight London’s rain characteristics:
@@ -126,7 +126,7 @@ Detailed visualisations for these findings are available in the Jupyter Notebook
 
 The analysis shows that London experiences frequent rain, with rainfall on 62.4% of the days in 2023. While London’s rain is generally lighter and less intense compared to tropical cities, its consistent, moderate rainfall supports its reputation as a rainy city. 
 
-Overall, we conclude that London’s rainy image is justified based on the frequency and consistency of rainfall, though it is not as heavy as often depicted in movies.
+Overall, we conclude that London’s rainy image is justified based on the **frequency and consistency** of rainfall, though it is not as **heavy** as often depicted in movies.
 
 
 ## Further Exploration
