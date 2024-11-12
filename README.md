@@ -4,11 +4,7 @@
 
 # Is London Really as Rainy as the Movies Make It Out to Be? 🤔
 
-This project investigates London's rainy reputation by analysing rainfall metrics across major cities. Using data visualisation and statistical metrics, we explore whether London's weather aligns with its portrayal in popular culture.
-
-## Description
-
-This analysis examines rainfall data for London and other major cities to determine if London is truly as rainy as often depicted in movies. By analysing metrics such as the number of rainy days, monthly total rainfall, and average rain intensity, we gain insights into the reality of London's weather.
+This project investigates London's rainy reputation by analysing rainfall metrics across major cities. Using data visualisation and statistical metrics, we explore whether London's weather aligns with its portrayal in popular culture. By analysing metrics such as the number of rainy days, monthly total rainfall, and average rain intensity, we gain insights into the reality of London's weather.
 
 ## Project Structure
 
