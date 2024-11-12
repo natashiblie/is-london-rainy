@@ -1,10 +1,27 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/16Ytx_fz)
 
-![London's Rainy Weather](./data/londonrain.jpg)
+<img src="./data/londonrain.jpg" alt="Is London Really as Rainy as the Movies Make It Out to Be?" width="1000"/>
 
 # Is London Really as Rainy as the Movies Make It Out to Be? 🤔
 
 This project investigates London's rainy reputation by analysing rainfall metrics across major cities. Using data visualisation and statistical metrics, we explore whether London's weather aligns with its portrayal in popular culture. By analysing metrics such as the number of rainy days, monthly total rainfall, and average rain intensity, we gain insights into the reality of London's weather.
+
+## Contents
+
+- [Project Structure](#project-structure)
+- [Python Scripts](#python-scripts)
+- [How to Set Up and Run the Project](#how-to-set-up-and-run-the-project)
+- [Methodology](#methodology)
+  - [Data Source](#data-source)
+  - [Data Collection Strategy](#data-collection-strategy)
+  - [Cities Selected for Comparison](#cities-selected-for-comparison)
+  - [Data Collection Scope](#data-collection-scope)
+- [Metrics and Results](#metrics-and-results)
+  - [Metrics Analysed](#metrics-analysed)
+  - [Results & Visualisations](#results--visualisations)
+- [Conclusion](#conclusion)
+- [Further Exploration](#further-exploration)
+
 
 ## Project Structure
 
