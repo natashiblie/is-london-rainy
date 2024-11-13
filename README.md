@@ -10,16 +10,13 @@ This project investigates London's rainy reputation by analysing rainfall metric
 ## Contents
 
 - [Project Structure](#project-structure)
-- [Python Scripts](#python-scripts)
 - [How to Set Up and Run the Project](#how-to-set-up-and-run-the-project)
 - [Methodology](#methodology)
   - [Data Source](#data-source)
   - [Data Collection Strategy](#data-collection-strategy)
   - [Cities Selected for Comparison](#cities-selected-for-comparison)
   - [Data Collection Scope](#data-collection-scope)
-- [Metrics and Results](#metrics-and-results)
-  - [Metrics Analysed](#metrics-analysed)
-  - [Results & Visualisations](#results--visualisations)
+- [Metrics] (#metrics)
 - [Conclusion](#conclusion)
 - [Further Exploration](#further-exploration)
 
