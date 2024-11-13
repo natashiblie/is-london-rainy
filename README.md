@@ -16,7 +16,7 @@ This project investigates London's rainy reputation by analysing rainfall metric
   - [Data Collection Strategy](#data-collection-strategy)
   - [Cities Selected for Comparison](#cities-selected-for-comparison)
   - [Data Collection Scope](#data-collection-scope)
-- [Metrics] (#metrics)
+- [Metrics](#metrics)
 - [Conclusion](#conclusion)
 - [Further Exploration](#further-exploration)
 
