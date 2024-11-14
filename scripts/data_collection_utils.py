@@ -35,7 +35,7 @@ def build_url(latitude: float, longitude: float, start_date: str, end_date: str)
     params_date = "&start_date=" + start_date + "&end_date=" + end_date
 
     # Specify data type (precipitation) and set timezone to auto for local adjustment
-    params_others = "&daily=precipitation_sum,precipitation_hours&timezone=auto"
+    params_others = "&daily=precipitation_sum&timezone=auto"
 
     # Combine all parts to form the final API URL
     final_url = base_historical_url + params_lat_long + params_date + params_others
