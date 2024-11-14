@@ -14,7 +14,6 @@ This project investigates London's rainy reputation by analysing rainfall metric
 - [Methodology](#methodology)
   - [Data Source](#data-source)
   - [Data Collection Strategy](#data-collection-strategy)
-  - [Cities Selected for Comparison](#cities-selected-for-comparison)
   - [Data Collection Scope](#data-collection-scope)
 - [Metrics](#metrics)
 - [Conclusion](#conclusion)
@@ -94,16 +93,7 @@ In this project, we used the **Historical Weather Data** endpoint from the Open-
 
 The objective is to assess the raininess of **London, UK** relative to other cities with varied climates. We collected historical precipitation data for the entire year of 2023 to enable a detailed comparison of annual rain patterns.
 
-#### Cities Selected for Comparison:
-1. **London, UK** – The main city of interest, often portrayed as rainy.
-2. **Singapore** – Known for its tropical climate with high annual rainfall.
-3. **Cairo, Egypt** – Represents a dry climate with very low annual rainfall.
-4. **Buenos Aires, Argentina** – A moderate climate with regular seasonal rainfall.
-5. **Mumbai, India** – Known for very high rainfall, particularly during the monsoon season.
-
-These cities offer a range of climates, from dry (Cairo) to tropical (Singapore, Mumbai) and moderate (Buenos Aires), providing a balanced comparison to assess if London's raininess is as prominent as often portrayed.
-
-#### Data Collection Scope
+### Data Collection Scope
 For each city, the following data was retrieved for 2023:
 - **Daily Precipitation** (`precipitation_sum`) to measure total rainfall.
 
